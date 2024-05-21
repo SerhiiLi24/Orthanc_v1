@@ -1,0 +1,18 @@
+{
+  "Name": "Orthanc Computed tomography",
+  "DicomAet": "CT01",
+  "RemoteAccessAllowed": true,
+  "AuthenticationEnabled": false,
+  "StorageCompression" : true,
+  "PostgreSQL": {
+    "EnableIndex": true,
+    "EnableStorage": true, // DICOM files are stored in the Orthanc container in /var/lib/orthanc/db/
+    "Host": "PostgreSQL16-CT", // the name of the PostgreSQL container
+    "Database": "postgres", // default database name in PostgreSQL container (no need to create it)
+    "Username": "postgres", // default user name in PostgreSQL container (no need to create it)
+    "Password": "79aS45PFrKe6p8Ak",
+    "Lock": true,
+    "EnableVerboseLogs": true
+  }
+
+}

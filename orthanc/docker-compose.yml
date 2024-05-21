@@ -1,0 +1,31 @@
+version: "3"
+services:
+  # first setup through configuration file and build step
+  orthanc:
+    build: orthanc
+    depends_on: [orthanc-index]
+    restart: unless-stopped
+    ports: ["4242:4242", "8042:8042"]
+    volumes: ["orthanc-storage:/var/lib/orthanc/db"]
+    environment:
+      VERBOSE_STARTUP: "true"
+      ORTHANC__POSTGRESQL: |
+        {
+          "Host": "0.0.0.0"
+        }
+      OSIMIS_WEB_VIEWER1_PLUGIN_ENABLED: "true"
+      STONE_WEB_VIEWER_PLUGIN_ENABLED: "true"
+      DICOM_WEB_PLUGIN_ENABLED: "true"
+      
+  orthanc-index:
+    image: postgres:16.3
+    restart: unless-stopped
+    ports: ["5432:5432"]
+    volumes: ["orthanc-index:/var/lib/postgresql/data"]
+    environment:
+      POSTGRES_HOST_AUTH_METHOD: "trust"
+
+
+volumes:
+  orthanc-storage:
+  orthanc-index:
