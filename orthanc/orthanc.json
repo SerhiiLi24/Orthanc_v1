@@ -7,7 +7,7 @@
   "PostgreSQL": {
     "EnableIndex": true,
     "EnableStorage": true, // DICOM files are stored in the Orthanc container in /var/lib/orthanc/db/
-    "Host": "172.23.0.3", // the name of the PostgreSQL container
+    "Host": "172.17.0.3", // the name of the PostgreSQL container
     "Database": "postgres", // default database name in PostgreSQL container (no need to create it)
     "Username": "postgres", // default user name in PostgreSQL container (no need to create it)
     "Password": "79aS45PFrKe6p8Ak",
