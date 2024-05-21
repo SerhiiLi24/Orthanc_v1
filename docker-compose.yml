@@ -16,8 +16,7 @@ services:
       OSIMIS_WEB_VIEWER1_PLUGIN_ENABLED: "true"
       STONE_WEB_VIEWER_PLUGIN_ENABLED: "true"
       DICOM_WEB_PLUGIN_ENABLED: "true"
-    networks:
-      - bridge  
+
  # orthanc-index:
  #   image: postgres:16.3
  #   restart: unless-stopped
