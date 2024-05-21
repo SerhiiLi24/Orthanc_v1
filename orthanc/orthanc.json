@@ -5,16 +5,7 @@
   "AuthenticationEnabled": true,
   "StorageCompression" : true,
   "RegisteredUsers": {
-    "orthanc-web-user": "aPFrKeMM5ssw3SN",
-    "dicom-web-user": "52uGMM552sc3SNez",
-    "Shulhai Inna": "aBcDeFgHiJkL",
-    "Chernetskyj Jurij": "MnOpQrStUvWx",
-    "Daleka Inna": "YzAbCdEfGhIj",
-    "Kozachuk Olexandr": "KlMnOpQrStUv",
-    "Babych Oleh": "WxYzAbCdEfGh",
-    "Melnyk Olha": "IjKlMnOpQrSt",
-    "Honcharuk Serhii": "UvWxYzAbCdEf",
-    "Kateryna Kasianova": "GhIjKlMnOpQr"
+    "orthanc-web-user": "aPFrKeMM5ssw3SN"
   },
   "PostgreSQL": {
     "EnableIndex": true,
@@ -23,7 +14,6 @@
     "Database": "orthanc_db", // default database name in PostgreSQL container (no need to create it)
     "Username": "orthanc_db_user", // default user name in PostgreSQL container (no need to create it)
     "Password": "EFz6nPfM53inL769",
-    "Lock": true,
     "EnableVerboseLogs": true
   }
 
