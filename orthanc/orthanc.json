@@ -4,9 +4,6 @@
   "RemoteAccessAllowed": true,
   "AuthenticationEnabled": true,
   "StorageCompression" : true,
-  "RegisteredUsers": {
-    "orthanc-web-user": "aPFrKeMM5ssw3SN"
-  },
   "PostgreSQL": {
     "EnableIndex": true,
     "EnableStorage": true, // DICOM files are stored in the Orthanc container in /var/lib/orthanc/db/

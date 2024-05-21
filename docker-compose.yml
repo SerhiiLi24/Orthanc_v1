@@ -9,6 +9,8 @@ services:
     volumes: ["orthanc-storage:/var/lib/orthanc/db"]
     environment:
       VERBOSE_STARTUP: "true"
+      ORTHANC__REGISTERED_USERS: |
+        {"demo": "demo"}
       ORTHANC__POSTGRESQL: |
         {
           "Host": "172.17.0.3",
