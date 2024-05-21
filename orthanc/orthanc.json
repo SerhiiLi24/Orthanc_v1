@@ -4,6 +4,18 @@
   "RemoteAccessAllowed": true,
   "AuthenticationEnabled": false,
   "StorageCompression" : true,
+  "RegisteredUsers" : {
+    "orthanc-web-user" : "aPFrKeMM5ssw3SN",
+    "dicom-web-user" : "52uGMM552sc3SNez",
+    "Shulhai Inna" : "aBcDeFgHiJkL",
+    "Chernetskyj Jurij" : "MnOpQrStUvWx",
+    "Daleka Inna" : "YzAbCdEfGhIj",
+    "Kozachuk Olexandr" : "KlMnOpQrStUv",
+    "Babych Oleh" : "WxYzAbCdEfGh",
+    "Melnyk Olha" : "IjKlMnOpQrSt",
+    "Honcharuk Serhii" : "UvWxYzAbCdEf",
+    "Kateryna Kasianova" : "GhIjKlMnOpQr"
+  },
   "PostgreSQL": {
     "EnableIndex": true,
     "EnableStorage": true, // DICOM files are stored in the Orthanc container in /var/lib/orthanc/db/
