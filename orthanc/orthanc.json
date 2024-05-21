@@ -2,7 +2,7 @@
   "Name": "Orthanc Computed tomography",
   "DicomAet": "CT01",
   "RemoteAccessAllowed": true,
-  "AuthenticationEnabled": true,
+  "AuthenticationEnabled": false,
   "StorageCompression" : true,
   "PostgreSQL": {
     "EnableIndex": true,
