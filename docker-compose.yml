@@ -11,7 +11,7 @@ services:
       VERBOSE_STARTUP: "true"
       ORTHANC__POSTGRESQL: |
         {
-          "Host": "172.22.0.100"
+          "Host": "172.22.0.3"
         }
       OSIMIS_WEB_VIEWER1_PLUGIN_ENABLED: "true"
       STONE_WEB_VIEWER_PLUGIN_ENABLED: "true"
