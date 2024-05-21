@@ -2,7 +2,7 @@
   "Name": "Orthanc Computed tomography",
   "DicomAet": "CT01",
   "RemoteAccessAllowed": true,
-  "AuthenticationEnabled": false,
+  "AuthenticationEnabled": true,
   "StorageCompression" : true,
   "RegisteredUsers" : {
     "orthanc-web-user" : "aPFrKeMM5ssw3SN",
